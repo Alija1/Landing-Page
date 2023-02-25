@@ -1,7 +1,8 @@
 html,
 body {
     height: 100%;
-    margin: 0;
+    max-width: 100%;
+    margin: 0%;
 }
 
 
@@ -9,25 +10,23 @@ body {
 
 .header {
     background: #1F2937;
-    height: 60px;
-    width: 100%;
-    border-style: none;
+    height: 10%;
+    max-width: 100%;
+    padding: 20%;
+    padding-top: 2%;
+    padding-bottom: 10%;
     display: flex;
+    justify-content: space-between;
 }
 
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
-    border: none;
-    justify-content: center;
-    align-items: flex-start;
 }
 
 .header-links {
     font-size: 18px;
     color: #e5e7eb;
-    justify-content: center;
-    align-items: flex-end;
 }
 
 
@@ -35,16 +34,37 @@ body {
 
 .hero {
     background: #1F2937;
-    height: 500px;
-    width: 100%;
-    border-style: none;
+    height: 20%;
+    max-width: 100%;
+    padding: 20%;
+    padding-top: 0%;
     display: flex;
+    align-content: space-between;
+}
+
+.hero-text {
+    width: 50%;
 }
 
 .hero-main-text {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
-    justify-content: center;
-    align-items: flex-start;
+    align-self: flex-start;
+
+}
+
+.hero-sub {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-image {
+    width: 50%;
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+    height:auto;   
 }
