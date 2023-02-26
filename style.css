@@ -1,5 +1,6 @@
 html,
 body {
+    font-family: sans-serif;
     height: 100%;
     max-width: 100%;
     margin: 0%;
@@ -10,7 +11,7 @@ body {
 
 .header {
     background: #1F2937;
-    height: 10%;
+    height: auto;
     max-width: 100%;
     padding: 20%;
     padding-top: 2%;
@@ -34,7 +35,7 @@ body {
 
 .hero {
     background: #1F2937;
-    height: 20%;
+    height: auto;
     max-width: 100%;
     padding: 20%;
     padding-top: 0%;
@@ -66,5 +67,113 @@ body {
 
 img {
     max-width: 100%;
-    height:auto;   
+    height: auto;   
+}
+
+
+/* Info section */
+
+
+.info-header {
+    margin: 0% 20%;
+    max-width: 100%;
+    height: auto;
+    padding-top: 5%;
+    display:flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+
+}
+
+.info-boxes {
+    margin: 0% 20%;
+    max-width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: space-between;
+    gap: 4%;
+}
+
+.info-box {
+    border-radius: 10px;
+    border: 2px solid #3882f6;
+    height: 0;
+    width: 200px;
+    padding-bottom: 20%;
+}
+
+
+/* Quote section */
+
+.quote-section {
+    background: #e5e7eb;
+    max-width: 100%;
+    height: auto;
+    padding: 10% 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-box {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    width: 100%;
+    align-self:flex-start;
+}
+
+.quote-signature {
+    padding-top: 5%;
+    font-weight: 700;
+    align-self: flex-end;
+}
+
+
+/* Sign-up section */
+
+.call-to-action {
+    background: #3882f6;
+    height: auto;
+    max-width: 100%;
+    padding: 0% 10%;
+    margin: 20%;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-section {
+    color: #e5e7eb;
+    white-space: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3%;
+}
+
+.signup-info {
+    font-weight: 900;
+}
+
+.signup-button {
+    margin: 20% 20%;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button {
+    color: #e5e7eb;
+    
+    border-radius: 10px;
+    border: 2px solid #e5e7eb;
+    white-space: normal;
+    padding: 10% 50%;
+    font-weight: 900;
+    flex-shrink: 1;
 }
